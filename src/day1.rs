@@ -32,12 +32,12 @@ mod test {
 
 10000"#;
     #[test]
-    fn test_day1() {
+    fn test_part1() {
         assert_eq!(super::part1(&super::generate(INPUT)), 24000);
     }
 
     #[test]
-    fn test_day2() {
+    fn test_part2() {
         assert_eq!(super::part2(&super::generate(INPUT)), 45000);
     }
 }
